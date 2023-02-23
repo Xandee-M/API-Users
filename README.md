@@ -59,7 +59,7 @@ GET /api/listAll
 
 ### Listar usuário por ID
 ```
-GET /api/list
+POST /api/list
 ```
 ```
 {
