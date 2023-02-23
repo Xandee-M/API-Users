@@ -99,7 +99,7 @@ POST /api/create
 
 ### Deletar um usuário
 ```
-DELETE /api/delete
+POST /api/delete
 ```
 ```
 {
