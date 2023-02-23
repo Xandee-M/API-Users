@@ -31,7 +31,7 @@ Usuários
 
 ### Listar todos os usuários
 ```
-GET /api/listAll
+POST /api/listAll
 ```
 #### Retorno
 ```

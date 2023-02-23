@@ -16,11 +16,11 @@ use App\Http\Controllers\ApiController;
 |
 */
 
-// CRUD Produtos
+// CRUD Users
 Route::post('/create', [ApiController::class, 'create']);
 Route::post('/update',  [ApiController::class, 'update']);
 Route::post('/delete',  [ApiController::class, 'delete']);
 
 Route::post('/list',  [ApiController::class, 'list']);
-Route::get('/listAll',  [ApiController::class, 'listAll']);
+Route::post('/listAll',  [ApiController::class, 'listAll']);
 
